@@ -1,0 +1,26 @@
+[
+    {
+      "title": "GlamKit",
+      "slug": "glamkit",
+      "url": "https://secret-fortress-75809.herokuapp.com/",
+      "github": "https://github.com/arwehrman/glam-kit",
+      "image": "./images/glamkit_css_theme.png",
+      "description": "Rails App with jQuery Front End"
+    },
+    {
+      "title": "Drill It Kill It",
+      "slug": "drill-it",
+      "url": "https://example.org/",
+      "github": "https://github.com/arwehrman/drill-it-kill-it-client",
+      "image": "./images/drill_it_css_theme.png",
+      "description": "React Redux App with Rails backend"
+    },
+    {
+        "title": "The Grapevine",
+        "slug": "grapevine",
+        "url": "https://example.org/",
+        "github": "https://github.com/arwehrman/thegrapevine",
+        "image": "./images/grapevine_css_theme.png",
+        "description": "Sinatra app"
+      }
+  ]
