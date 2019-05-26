@@ -1,7 +1,7 @@
-import React from 'react';
-import { Link } from 'gatsby';
+import React from "react"
+import { Link } from "gatsby"
 
-import './layout.css';
+import "./layout.css"
 
 const ListLink = props => (
   <li style={{ display: `inline-block`, marginRight: `1rem` }}>
@@ -21,6 +21,6 @@ const Layout = ({ children }) => (
     </header>
     <main className="content">{children}</main>
   </React.Fragment>
-);
+)
 
-export default Layout;
+export default Layout

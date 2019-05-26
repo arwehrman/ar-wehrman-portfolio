@@ -9,6 +9,7 @@ const Projects = () => {
       allProjectsJson {
         edges {
           node {
+            id
             title
             slug
             description
@@ -31,12 +32,14 @@ const Projects = () => {
   return (
     <Layout>
       {projects.map(({ node: project }) => {
+        const id = project.id
         const title = project.title
         const description = project.description
         const slug = project.slug
         const imageData = project.image.childImageSharp.fluid
         return (
           <ProjectPreview
+            key = {id}
             title={title}
             description={description}
             slug={slug}

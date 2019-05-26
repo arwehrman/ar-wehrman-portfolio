@@ -6,24 +6,35 @@
 }
 
 body {
-  background-color: #08090A;
+  background-color: #0A0F0D;
   font-size: 22px;
   font-family: 'Trirong', serif;
   color: #fff;
 }
 
 h1 {
-  color: #e7BB41;
-  letter-spacing: 8px;
+  color: #FFD23F;
+  letter-spacing: 7px;
   font-family: 'Rubik', sans-serif;
 }
+
+h2 {
+  color: #EE4266;
+  letter-spacing: 4px;
+}
+
+h3 {
+  color: #1DD3B0;
+  letter-spacing: 4px;
+}
+
 .header {
-  background-color: #08090A;
+  background-color: #0A0F0D;
   padding: 1rem;
 }
 
 .header a {
-  color: white;
+  color: #FFD23F;
   font-weight: 700;
   text-decoration: none;
 }
@@ -55,7 +66,7 @@ h1 {
 }
 
 .project-preview h2 a {
-  color: #222;
+  color: #EE4266;
   text-decoration: none;
 }
 
