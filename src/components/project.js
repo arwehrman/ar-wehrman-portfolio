@@ -11,7 +11,7 @@ const Project = ({title, description, url, imageData}) => (
             <a href={url}>Project Demo</a>
         </p>
         <p>
-            <Link to="/">Projects</Link>
+            <Link to="/projects">Projects</Link>
         </p>
     </div>
 );

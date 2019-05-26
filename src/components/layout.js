@@ -16,6 +16,7 @@ const Layout = ({ children }) => (
       <ul style={{ listStyle: `none`, float: `right` }}>
         <ListLink to="/facts">Facts</ListLink>
         <ListLink to="/hobbies">Hobbies</ListLink>
+        <ListLink to="/projects">Projects</ListLink>
       </ul>
     </header>
     <main className="content">{children}</main>
