@@ -3,10 +3,20 @@ import { Link } from 'gatsby';
 
 import './layout.css';
 
+const ListLink = props => (
+  <li style={{ display: `inline-block`, marginRight: `1rem` }}>
+    <Link to={props.to}>{props.children}</Link>
+  </li>
+)
+
 const Layout = ({ children }) => (
   <React.Fragment>
     <header className="header">
       <Link to="/">AR Wehrman</Link>
+      <ul style={{ listStyle: `none`, float: `right` }}>
+        <ListLink to="/facts">Facts</ListLink>
+        <ListLink to="/hobbies">Hobbies</ListLink>
+      </ul>
     </header>
     <main className="content">{children}</main>
   </React.Fragment>
