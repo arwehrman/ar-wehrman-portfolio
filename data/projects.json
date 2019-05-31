@@ -13,7 +13,7 @@
       "url": "https://example.org/",
       "github": "https://github.com/arwehrman/drill-it-kill-it-client",
       "image": "./images/drill_it_css_theme.png",
-      "description": "React Redux App with Rails backend"
+      "description": "React and Redux App with Rails backend"
     },
     {
         "title": "The Grapevine",

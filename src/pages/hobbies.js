@@ -11,7 +11,12 @@ const Hobbies = () => (
             <br></br>
             <img src={wonder} alt="Wonder Wehrman" />
             <p>Roller Derby</p>
-            <p>Photography</p>
+                <ul className="hobbies-list">
+                    <li>Player- 3 years</li>
+                    <li>Announcer- 2 years</li>
+                    <li>Photographer- 1 year</li>
+                    <li>WFTDA Volunteer- worked as Clips Media Manager for WFTDA Broadcast</li>
+                </ul>
             
         </div>
     </Layout>

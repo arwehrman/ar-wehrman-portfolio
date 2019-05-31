@@ -26,9 +26,9 @@ const Facts = () => (
       <div className="skillBlock">
         <h3>Essential</h3>
         <ul>
-          <li>skill 1</li>
-          <li>skill 2</li>
-          <li>skill 3</li>
+          <li>Organization</li>
+          <li>Peristence</li>
+          <li>Self-Motivated</li>
         </ul>
       </div>
 
@@ -62,6 +62,18 @@ const Facts = () => (
           <li>
             create, manage and deploy content to over 140 digital signage
             displays
+          </li>
+        </ul>
+
+        <h3>Museum Photographer</h3>
+        <p>Kennedy Museum of Art, Athens, OH</p>
+        <p>September 2009 to June 2010</p>
+        <ul>
+          <li>photographed artwork for museum’s inventory database</li>
+          <li>assisted in the installation of visiting artist exhibits</li>
+          <li>
+            photographed exhibits and openings for the museum’s website and
+            other promotional material
           </li>
         </ul>
         <h2>Education</h2>

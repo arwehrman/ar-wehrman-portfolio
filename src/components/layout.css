@@ -87,3 +87,7 @@ h3 {
 .project ul {
   margin-top: 0.5rem;
 }
+
+ul.hobbies-list li {
+  list-style-type: none;
+}
