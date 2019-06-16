@@ -5,6 +5,7 @@ const Facts = () => (
   <Layout>
     <div>
       <h2>Skills</h2>
+      <div className="skills">
       <div className="skillBlock">
         <h3>Core</h3>
         <ul>
@@ -31,6 +32,8 @@ const Facts = () => (
           <li>Self-Motivated</li>
         </ul>
       </div>
+      </div>
+      
 
       <div className="resume">
         <h2>Job Experience</h2>

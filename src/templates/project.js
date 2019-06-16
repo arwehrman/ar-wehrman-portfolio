@@ -9,6 +9,7 @@ export const query = graphql`
       title
       description
       url
+      github
       image {
         childImageSharp {
           fluid {
@@ -26,15 +27,19 @@ const ProjectTemplate = ({ data }) => {
   const description = project.description;
   const imageData = project.image.childImageSharp.fluid;
   const url = project.url;
-
+  const github = project.github
   return (
     <Layout>
+      <div className="project-content">
       <Project
         title={title}
         description={description}
         imageData={imageData}
         url={url}
+        github={github}
       />
+      </div>
+     
     </Layout>
   );
 };

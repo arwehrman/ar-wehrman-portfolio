@@ -12,6 +12,8 @@ body {
   color: #fff;
 }
 
+
+
 h1 {
   color: #FFD23F;
   letter-spacing: 7px;
@@ -39,7 +41,15 @@ h3 {
   text-decoration: none;
 }
 
-.content {
+a.topnav:hover {
+  color: #EE4266;
+}
+
+.content{
+  padding: 30px;
+  margin: 20px;
+}
+.project-content {
   display: flex;
   flex-wrap: wrap;
   justify-content: space-between;
@@ -90,4 +100,13 @@ h3 {
 
 ul.hobbies-list li {
   list-style-type: none;
+}
+
+.skills {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+.skillBlock ul{
+  list-style: none;
 }
