@@ -51,20 +51,18 @@ const Facts = () => (
             versions
           </li>
           <li>
-            troubleshoot and make technical suggestions for changes and
-            additions to the company website
+            project lead on two website remodels 
+          </li>
+          <li>
+            web adminstrator for the companies internal and external sites
           </li>
           <li>
             scheduled and managed outside vendors on projects, reducing the
-            amount of downtime for clients and staff{" "}
+            amount of downtime for clients and staff
           </li>
           <li>
             re-designed and implemented cost model for digital signage system,
             leading to an increase in revenue
-          </li>
-          <li>
-            create, manage and deploy content to over 140 digital signage
-            displays
           </li>
         </ul>
 

@@ -1,6 +1,6 @@
 import React from "react"
 import { Link } from "gatsby"
-
+import logo from "../images/icon.png"
 import "./layout.css"
 
 const ListLink = props => (
@@ -12,7 +12,7 @@ const ListLink = props => (
 const Layout = ({ children }) => (
   <React.Fragment>
     <header className="header">
-      <Link to="/">AR Wehrman</Link>
+      <Link to="/"><img src={logo} alt="W logo" /></Link>
       <ul style={{ listStyle: `none`, float: `right` }}>
         <ListLink  to="/facts">Facts</ListLink>
         <ListLink to="/hobbies">Hobbies</ListLink>
