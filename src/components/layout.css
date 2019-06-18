@@ -116,6 +116,7 @@ ul.hobbies-list li {
 }
 .skillBlock ul {
   list-style: none;
+  padding: 20px;
 }
 
 a.logo {
@@ -165,3 +166,13 @@ a.logo span{
     text-shadow: inherit;
   }
 }
+
+.job {
+  padding: 20px;
+}
+
+.job h3 {
+  padding-bottom: 20px;
+  text-align: left;
+}
+
