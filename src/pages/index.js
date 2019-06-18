@@ -7,6 +7,7 @@ import headshot from '../images/arwehrman.jpg'
 const IndexPage = () => (
   <Layout>
     <SEO title="Home" keywords={[`gatsby`, `application`, `react`]} />
+   
     <div>
       <img src={headshot} alt="My headshot" />
     </div> 

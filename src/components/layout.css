@@ -1,4 +1,5 @@
-@import url('https://fonts.googleapis.com/css?family=Rubik|Trirong&display=swap');
+@import url("https://fonts.googleapis.com/css?family=Teko|Rubik|Trirong&display=swap");
+
 
 * {
   box-sizing: border-box;
@@ -6,50 +7,50 @@
 }
 
 body {
-  background-color: #0A0F0D;
+  background-color: #261447;
   font-size: 22px;
-  font-family: 'Trirong', serif;
+  font-family: "Trirong", serif;
   color: #fff;
 }
 
-
-
 h1 {
-  color: #FFD23F;
+  color: #f9c80e;
   letter-spacing: 7px;
-  font-family: 'Rubik', sans-serif;
+  font-family: "Rubik", sans-serif;
 }
 
 h2 {
-  color: #EE4266;
+  color: #ee4266;
   letter-spacing: 4px;
-  font-family: 'Rubik', sans-serif;
+  font-family: "Rubik", sans-serif;
 }
 
 h3 {
-  color: #1DD3B0;
+  color: #1dd3b0;
   letter-spacing: 4px;
-  font-family: 'Rubik', sans-serif;
+  font-family: "Rubik", sans-serif;
 }
 
 .header {
-  background-color: #0A0F0D;
+  background-color: #261447;
   padding: 1rem;
-  font-family: 'Rubik', sans-serif;
 }
 
-.header a {
-  color: #FFD23F;
+a.topnav {
+  color: #f6019d;
+  font-family: 'Teko', sans-serif;
   font-size: 30px;
   text-decoration: none;
+  letter-spacing: 4px;
   padding: 10px;
 }
 
 a.topnav:hover {
-  color: #EE4266;
+  color: #2de2e6;
+  background-color: #f6019D;
 }
 
-.content{
+.content {
   padding: 50px;
   margin: 20px;
 }
@@ -81,7 +82,7 @@ a.topnav:hover {
 }
 
 .project-preview h2 a {
-  color: #EE4266;
+  color: #ee4266;
   text-decoration: none;
 }
 
@@ -112,8 +113,55 @@ ul.hobbies-list li {
   flex-wrap: wrap;
   justify-content: space-between;
   padding: 30px;
-
 }
-.skillBlock ul{
+.skillBlock ul {
   list-style: none;
+}
+
+a.logo {
+  font-size: 100px;
+  font-family: 'Teko', sans-serif;
+  letter-spacing: 3px;
+  text-decoration: none;
+  color: #fff;
+  text-shadow: 0 0 5px #f6019d, 0 0 10px #f6019d, 0 0 20px #920075, 0 0 30px #920075,
+    0 0 40px #920075, 0 0 55px #920075, 0 0 75px #920075;
+  text-align: center;
+}
+
+a.logo span{
+  animation: blink linear infinite 3s;
+}
+@keyframes blink {
+  78% {
+    color: inherit;
+    text-shadow: inherit;
+  }
+  79%{
+     color: #333;
+  }
+  80% {
+    
+    text-shadow: none;
+  }
+  81% {
+    color: inherit;
+    text-shadow: inherit;
+  }
+  82% {
+    color: #333;
+    text-shadow: none;
+  }
+  83% {
+    color: inherit;
+    text-shadow: inherit;
+  }
+  92% {
+    color: #333;
+    text-shadow: none;
+  }
+  92.5% {
+    color: inherit;
+    text-shadow: inherit;
+  }
 }
