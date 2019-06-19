@@ -9,7 +9,7 @@ const IndexPage = () => (
     <SEO title="Home" keywords={[`gatsby`, `application`, `react`]} />
    
     <div>
-      <img src={headshot} alt="My headshot" />
+      <img className="image-neon" src={headshot} alt="My headshot" />
     </div> 
     <div>
     <div>

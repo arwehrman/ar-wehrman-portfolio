@@ -1,5 +1,9 @@
 @import url("https://fonts.googleapis.com/css?family=Teko|Rubik|Trirong&display=swap");
 
+@import url("https://fontlibrary.org/face/beon");
+
+@import url("https://fontlibrary.org/face/hi");
+
 
 * {
   box-sizing: border-box;
@@ -38,7 +42,7 @@ h3 {
 
 a.topnav {
   color: #f6019d;
-  font-family: 'Teko', sans-serif;
+  font-family: "Teko", sans-serif;
   font-size: 30px;
   text-decoration: none;
   letter-spacing: 4px;
@@ -47,13 +51,15 @@ a.topnav {
 
 a.topnav:hover {
   color: #2de2e6;
-  background-color: #f6019D;
+  background-color: #f6019d;
 }
 
 .content {
   padding: 50px;
   margin: 20px;
 }
+
+/* Projects */
 
 .project-content {
   display: flex;
@@ -104,9 +110,13 @@ a.topnav:hover {
   margin-top: 0.5rem;
 }
 
+/* Hobbies */
+
 ul.hobbies-list li {
   list-style-type: none;
 }
+
+/* Skills Resume */
 
 .skills {
   display: flex;
@@ -119,18 +129,29 @@ ul.hobbies-list li {
   padding: 20px;
 }
 
+.job {
+  padding: 20px;
+}
+
+.job h3 {
+  padding-bottom: 20px;
+  text-align: left;
+}
+
+/* Logo */
+
 a.logo {
   font-size: 100px;
-  font-family: 'Teko', sans-serif;
+  font-family: "HiRegular";
   letter-spacing: 3px;
   text-decoration: none;
   color: #fff;
-  text-shadow: 0 0 5px #f6019d, 0 0 10px #f6019d, 0 0 20px #920075, 0 0 30px #920075,
-    0 0 40px #920075, 0 0 55px #920075, 0 0 75px #920075;
+  text-shadow: 0 0 5px #f6019d, 0 0 10px #f6019d, 0 0 20px #920075,
+    0 0 30px #920075, 0 0 40px #920075, 0 0 55px #920075, 0 0 75px #920075;
   text-align: center;
 }
 
-a.logo span{
+a.logo span {
   animation: blink linear infinite 3s;
 }
 @keyframes blink {
@@ -138,11 +159,10 @@ a.logo span{
     color: inherit;
     text-shadow: inherit;
   }
-  79%{
-     color: #333;
+  79% {
+    color: #333;
   }
   80% {
-    
     text-shadow: none;
   }
   81% {
@@ -167,12 +187,32 @@ a.logo span{
   }
 }
 
-.job {
-  padding: 20px;
+
+/* neon image border */
+
+.image-neon {
+  position: relative;
+  animation: a1 3s ease-in-out 0s infinite;
+  color: #eb0ef7;
+  border: 10px solid #eb0ef7;
+  text-shadow: 0px 0px 100px #eb0ef7;
 }
 
-.job h3 {
-  padding-bottom: 20px;
-  text-align: left;
+@keyframes a1 {
+  0% {
+    border: 5px solid #57104f;
+    box-shadow: 0px 0px 17px 1px #0a0c3d;
+  }
+  50% {
+    border: 5px solid #57104f;
+    box-shadow: 0px 0px 17px 1px #0a0c3d;
+  }
+  50.001% {
+    border: 5px solid #2de2e6;
+    box-shadow: 0px 0px 17px 1px #2de2e6;
+  }
+  100% {
+    border: 5px solid #2de2e6;
+    box-shadow: 0px 0px 17px 1px #2de2e6;
+  }
 }
-

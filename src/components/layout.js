@@ -11,7 +11,7 @@ const ListLink = props => (
 const Layout = ({ children }) => (
   <React.Fragment>
     <header className="header">
-      <Link className="logo" to="/">A<span>R</span> Wehr<span>ma</span>n</Link>
+      <Link className="logo" to="/">A<span>R</span> WEHR<span>MA</span>N</Link>
       <ul style={{ listStyle: `none`, float: `right` }}>
         <ListLink  to="/facts">Facts</ListLink>
         <ListLink to="/hobbies">Hobbies</ListLink>
