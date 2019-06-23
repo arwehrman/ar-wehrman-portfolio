@@ -11,7 +11,7 @@
 }
 
 body {
-  background-color: #261447;
+  background-color: #0d0221;
   font-size: 22px;
   font-family: "Trirong", serif;
   color: #fff;
@@ -36,7 +36,7 @@ h3 {
 }
 /* Navigation */
 .header {
-  background-color: #261447;
+  background-color: #0d0221;
   padding: 1rem;
 }
 
@@ -52,11 +52,28 @@ a.topnav {
 a.topnav:hover {
   color: #2de2e6;
   background-color: #f6019d;
+  border-radius: 3px;
 }
 
 .content {
   padding: 50px;
   margin: 20px;
+}
+
+/* About */
+.about {
+  background-color: #261447;
+  padding: 15px;
+  border-radius: 3px;
+}
+
+.about h1 {
+  padding-bottom: 10px;
+  font-family: "Teko", sans-serif;
+}
+
+.headshot {
+  align-content: center;
 }
 
 /* Projects */
@@ -120,6 +137,7 @@ ul.hobbies-list li {
 .skills {
   display: flex;
   flex-wrap: wrap;
+  background-color: #261447;
   justify-content: space-between;
   padding: 60px;
   border: 5px solid #2de2e6;
@@ -210,19 +228,18 @@ a.logo span {
 .image-neon {
   position: relative;
   animation: imgFlash 3s ease-in-out 0s infinite;
-  color: #eb0ef7;
-  border: 10px solid #eb0ef7;
-  text-shadow: 0px 0px 100px #eb0ef7;
+  border-radius: 3px;
+  
 }
 
 @keyframes imgFlash {
   0% {
-    border: 5px solid #57104f;
-    box-shadow: 0px 0px 17px 1px #0a0c3d;
+    border: 5px solid #0d0221;
+    box-shadow: 0px 0px 17px 1px #0d0221;
   }
   50% {
-    border: 5px solid #57104f;
-    box-shadow: 0px 0px 17px 1px #0a0c3d;
+    border: 5px solid #0d0221;
+    box-shadow: 0px 0px 17px 1px #0d0221;
   }
   50.001% {
     border: 5px solid #2de2e6;
