@@ -80,7 +80,7 @@ const jobs = data.allJobsJson.edges
           />
         )
       })}
-
+</div>
         <div className="education">
           <h2>Education</h2>
           <div className="school">
@@ -100,7 +100,7 @@ const jobs = data.allJobsJson.edges
           </div>   
         </div>
       </div>
-    </div>
+  
   </Layout>
  )
 }

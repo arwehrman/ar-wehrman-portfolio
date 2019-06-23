@@ -4,10 +4,11 @@ import SEO from "../components/seo"
 import headshot from '../images/arwehrman.jpg'
 
 
+
 const IndexPage = () => (
   <Layout>
     <SEO title="Home" keywords={[`gatsby`, `application`, `react`]} />
-   
+  
     <div className="headshot">
       <img className="image-neon" src={headshot} alt="My headshot" />
     </div> 

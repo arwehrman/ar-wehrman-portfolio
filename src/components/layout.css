@@ -15,6 +15,7 @@ body {
   font-size: 22px;
   font-family: "Trirong", serif;
   color: #fff;
+  text-shadow: 2px 2px 4px #000000;
 }
 
 h1 {
@@ -53,6 +54,8 @@ a.topnav:hover {
   color: #2de2e6;
   background-color: #f6019d;
   border-radius: 3px;
+  box-shadow: 0 0 5px #2de2e6, 0 0 10px #2de2e6, 0 0 10px #05DDDD,
+  0 0 10px #05DDDD, 0 0 10px #05DDDD, 0 0 15px #05DDDD, 0 0 15px #05DDDD;
 }
 
 .content {
@@ -70,6 +73,7 @@ a.topnav:hover {
 .about h1 {
   padding-bottom: 10px;
   font-family: "Teko", sans-serif;
+  color: #f6019d
 }
 
 .headshot {
@@ -150,10 +154,17 @@ ul.hobbies-list li {
   padding: 20px;
 }
 .resume {
-  padding-top: 40px;
+  margin-top: 30px;
+  padding: 20px;
+  background-color: #261447;
+  border: 5px solid #2de2e6;
+  border-radius: 10px;
+  box-shadow: 0 0 5px #2de2e6, 0 0 10px #2de2e6, 0 0 10px #05DDDD,
+  0 0 10px #05DDDD, 0 0 10px #05DDDD, 0 0 15px #05DDDD, 0 0 15px #05DDDD;
 }
 .job {
   padding: 20px;
+  
 }
 
 .job h3 {
@@ -162,7 +173,13 @@ ul.hobbies-list li {
 }
 
 .education {
-  padding-top: 40px;
+  margin-top: 30px;
+  padding: 20px;
+  background-color: #261447;
+  border: 5px solid #2de2e6;
+  border-radius: 10px;
+  box-shadow: 0 0 5px #2de2e6, 0 0 10px #2de2e6, 0 0 10px #05DDDD,
+  0 0 10px #05DDDD, 0 0 10px #05DDDD, 0 0 15px #05DDDD, 0 0 15px #05DDDD;
 }
 
 .education h2 {
