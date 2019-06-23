@@ -4,7 +4,7 @@
       "company": "Pennsylvania Convention Center, Philadelphia, PA",
       "startdate": "December 2010",
       "enddate": "present",
-      "description": "testing"
+      "description": ["Conducted quality control testing for Ungerboeck, event management software upgrade, allowing for smooth transition for users between versions", "create, manage and deploy content to over 140 digital signage displays", "configure, write custom reports, and train users on Ungerboeck, event management software ", "troubleshoot and make technical suggestions for changes and additions to the company website", "scheduled and managed outside vendors on projects, reducing the amount of downtime for clients and staff", "re-designed and implemented cost model for digital signage system, leading to an increase in revenue"]
     },
 
 {
@@ -12,7 +12,7 @@
       "company": "Kennedy Museum of Art, Athens, OH",
       "startdate": "September 2009",
       "enddate": "June 2010",
-      "description": "testing 2"
+      "description": ["photographed artwork for museum’s inventory database", "ssisted in the installation of visiting artist exhibits", "photographed exhibits and openings for the museum’s website and other promotional material"]
     }
  
 

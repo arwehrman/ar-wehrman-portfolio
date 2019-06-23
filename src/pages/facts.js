@@ -43,7 +43,6 @@ const jobs = data.allJobsJson.edges
           <h3>Libaries</h3>
           <ul>
             <li>React</li>
-            <li>Wordpress</li>
             <li>Gatsby</li>
           </ul>
         </div>
@@ -67,6 +66,7 @@ const jobs = data.allJobsJson.edges
         const startdate = job.startdate
         const enddate = job.enddate
         const description = job.description
+      
     
         return (
           <Job
@@ -80,6 +80,7 @@ const jobs = data.allJobsJson.edges
           />
         )
       })}
+
         <div className="education">
           <h2>Education</h2>
           <div className="school">

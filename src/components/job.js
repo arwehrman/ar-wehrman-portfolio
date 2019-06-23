@@ -6,7 +6,13 @@ const Job = ({ id, title, description, startdate, enddate, company}) => (
         <h3>{title}</h3>
           <p>{company}</p>
           <p>{startdate} to {enddate}</p>
-          <p>{description}</p>
+          <ul>
+          {description.map((item, index)=> {
+             return <li key={index}>{item}</li>       
+    })
+    
+}
+</ul>
     </div>
 );
 
