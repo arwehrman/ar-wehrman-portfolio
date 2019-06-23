@@ -6,13 +6,18 @@ module.exports = {
   },
   plugins: [
     'gatsby-plugin-sharp',
-    'gatsby-transformer-sharp',
+    'gatsby-transformer-sharp', 
     {
       resolve: 'gatsby-source-filesystem',
       options: {
         name: 'project',
         path: './data'
-      }
+      },
+        resolve: 'gatsby-source-filesystem',
+        options: {
+          name: 'jobs',
+          path: './data'
+        }
     },
     'gatsby-transformer-json',
       {

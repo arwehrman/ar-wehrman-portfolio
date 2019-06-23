@@ -1,4 +1,4 @@
-@import url("https://fonts.googleapis.com/css?family=Teko|Rubik|Trirong&display=swap");
+@import url("https://fonts.googleapis.com/css?family=Teko|Monoton|Rubik|Trirong&display=swap");
 
 @import url("https://fontlibrary.org/face/beon");
 
@@ -34,7 +34,7 @@ h3 {
   letter-spacing: 4px;
   font-family: "Rubik", sans-serif;
 }
-
+/* Navigation */
 .header {
   background-color: #261447;
   padding: 1rem;
@@ -117,18 +117,23 @@ ul.hobbies-list li {
 }
 
 /* Skills Resume */
-
 .skills {
   display: flex;
   flex-wrap: wrap;
   justify-content: space-between;
-  padding: 30px;
+  padding: 60px;
+  border: 5px solid #2de2e6;
+  border-radius: 10px;
+  box-shadow: 0 0 5px #2de2e6, 0 0 10px #2de2e6, 0 0 10px #05DDDD,
+  0 0 10px #05DDDD, 0 0 10px #05DDDD, 0 0 15px #05DDDD, 0 0 15px #05DDDD;
 }
 .skillBlock ul {
   list-style: none;
   padding: 20px;
 }
-
+.resume {
+  padding-top: 40px;
+}
 .job {
   padding: 20px;
 }
@@ -138,12 +143,24 @@ ul.hobbies-list li {
   text-align: left;
 }
 
+.education {
+  padding-top: 40px;
+}
+
+.education h2 {
+  padding-bottom: 10px;
+}
+
+.school {
+  padding-bottom: 10px;
+}
+
 /* Logo */
 
 a.logo {
   font-size: 100px;
   font-family: "HiRegular";
-  letter-spacing: 3px;
+  letter-spacing: 10px;
   text-decoration: none;
   color: #fff;
   text-shadow: 0 0 5px #f6019d, 0 0 10px #f6019d, 0 0 20px #920075,
@@ -192,13 +209,13 @@ a.logo span {
 
 .image-neon {
   position: relative;
-  animation: a1 3s ease-in-out 0s infinite;
+  animation: imgFlash 3s ease-in-out 0s infinite;
   color: #eb0ef7;
   border: 10px solid #eb0ef7;
   text-shadow: 0px 0px 100px #eb0ef7;
 }
 
-@keyframes a1 {
+@keyframes imgFlash {
   0% {
     border: 5px solid #57104f;
     box-shadow: 0px 0px 17px 1px #0a0c3d;
@@ -216,3 +233,4 @@ a.logo span {
     box-shadow: 0px 0px 17px 1px #2de2e6;
   }
 }
+

@@ -12,7 +12,7 @@ const IndexPage = () => (
       <img className="image-neon" src={headshot} alt="My headshot" />
     </div> 
     <div>
-    <div>
+    <div className="about">
     <h1>About Me</h1>
             <p>If I had to pick one word to describe me it would be Driven.</p>
             <p>My employment background is a mixed bag, that has in its own unique  way led me to searching for my first developer role. I've worked on the retail floor, in restaurants, warehouse distribution, banking, real estate law and hospitality.</p>
