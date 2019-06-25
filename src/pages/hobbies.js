@@ -13,10 +13,10 @@ const Hobbies = () => (
         </div>
 
         <div className="hobby">
-            <p>I love to travel within the United States and internationally. I've been to France, Ireland, and Argentina. I'm currently planning a trip to China.</p>
+            <p>I love to travel. Rick Steves says it best "Ideally, travel broadens our perspectives personally, culturally, and politically. Suddenly, the palette with which we paint the story of our lives has more colors.” Outside of travel across the United States,  I've been to France, Ireland, and Argentina.  I'm currently planning a trip to China.</p>
         </div>
         <div className="hobby">
-            <p>I really enjoy photography. I started building cameras out of Legos when I was 4 years old. I would pretend that I was taking pictures and then I would go to my "dark room" and draw the pictures I took. My favorite photographers are Robert Frank and Sylvia Placky</p>
+            <p>I love all forms of art but photography is my favorite. I started building cameras out of Legos when I was 4 years old. I would pretend that I was taking pictures and then I would develop them in my "dark room", which was me drawing  the pictures I took. I enjoy capturing everyday life.  My favorite photographers are Robert Frank and Sylvia Placky.</p>
         </div>
         </div>
     </Layout>
