@@ -4,7 +4,7 @@ import Layout from '../components/layout'
 
 const Hobbies = () => (
     <Layout>
-        <div>
+        <div className="hobbies">
             <h1>Hobbies</h1>
         
         <div className="hobby">
