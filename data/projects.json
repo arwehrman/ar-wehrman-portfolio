@@ -1,26 +1,71 @@
 [
-    {
-      "title": "GlamKit",
-      "slug": "glamkit",
-      "url": "https://secret-fortress-75809.herokuapp.com/",
-      "github": "https://github.com/arwehrman/glam-kit",
-      "image": "./images/glamkit_css_theme.png",
-      "description": "Rails App with jQuery Front End"
-    },
-    {
-      "title": "Drill It Kill It",
-      "slug": "drill-it",
-      "url": "https://example.org/",
-      "github": "https://github.com/arwehrman/drill-it-kill-it-client",
-      "image": "./images/drill_it_css_theme.png",
-      "description": "React and Redux App with Rails backend"
-    },
-    {
-        "title": "The Grapevine",
-        "slug": "grapevine",
-        "url": "https://example.org/",
-        "github": "https://github.com/arwehrman/thegrapevine",
-        "image": "./images/grapevine_css_theme.png",
-        "description": "Sinatra app"
-      }
-  ]
+  {
+    "title": "GlamKit",
+    "slug": "glamkit",
+    "projectType": "school",
+    "url": "https://secret-fortress-75809.herokuapp.com/",
+    "github": "https://github.com/arwehrman/glam-kit",
+    "image": "./images/glamkit_css_theme.png",
+    "description": "Rails App with jQuery Front End",
+    "requirements": [
+      "Add dynamic features that are possibe only through jQuery and a JSON API",
+      "Do Not Use remote: true in application",
+      "Must render at least one index page via jQuery and an Active Model Serialization JSON Backend.",
+      "Must render at least one show page via jQuery and an Active Model Serialization JSON Backend.",
+      "The rails API must reveal at least one has-many relationship in the JSON that is then rendered to the page.",
+      "Must use Rails API and a form to create a resource and render the response without a page refresh.",
+      "Must translate the JSON responses into Javascript Model Objects. The Model Objects must have at least one method on the prototype.",
+      "Must have a Rails Backend and new requirements implemented through JavaScript.",
+      "Makes use of ES6 features as much as possible(e.g Arrow functions, Let & Const, Constructor Functions)",
+      "Must translate the JSON responses into Javascript Model Objects using either ES6 class or constructor syntax.",
+      "Must render at least one index page (index resource - 'list of things') via JavaScript and an Active Model Serialization JSON Backend.",
+      "Must render at least one show page (show resource - 'one specific thing') via JavaScript and an Active Model Serialization JSON Backend.",
+      "Rails application must reveal at least one `has-many` relationship through JSON that is then rendered to the page.",
+      "Must use Rails application to render a form for creating a resource that is submitted dynamically through JavaScript.",
+      "At least one of the JS Model Objects must have a method on the prototype."
+    ]
+  },
+  {
+    "title": "Drill It Kill It",
+    "slug": "drill-it",
+    "projectType": "school",
+    "url": "https://example.org/",
+    "github": "https://github.com/arwehrman/drill-it-kill-it-client",
+    "image": "./images/drill_it_css_theme.png",
+    "description": "Client-Side application in React & Redux with a Rails API Backend",
+    "requirements": [
+      "The code should be written in ES6 as much as possible",
+      "Use the create-react-app generator to start your project",
+      "App should have one HTML page to render your react-redux application",
+      "There should be 2 container components",
+      "There should be 5 stateless components",
+      "There should be 3 routes",
+      "The Application must make use of react-router and proper RESTful routing",
+      "Use Redux middleware to respond to and modify state change",
+      "Make use of async actions to send data to and receive data from a server",
+      "Rails API should handle the data persistence. Should be using fetch() within actions to GET and POST data from the API,do not use jQuery methods.",
+      "Client-side application should handle the display of data with minimal data manipulation",
+      "Application should have some minimal styling"
+    ]
+  },
+  {
+    "title": "The Grapevine",
+    "slug": "grapevine",
+    "projectType": "school",
+    "url": "https://example.org/",
+    "github": "https://github.com/arwehrman/thegrapevine",
+    "image": "./images/grapevine_css_theme.png",
+    "description": "Sinatra app",
+    "requirements": [
+      "Build an MVC Sinatra application.",
+      "Use ActiveRecord with Sinatra.",
+      "Use multiple models.",
+      "Use at least one has_many relationship on a User model and one belongs_to relationship on another model.",
+      "Must have user accounts - users must be able to sign up, sign in, and sign out.",
+      "Validate uniqueness of user login attribute (username or email).",
+      "Once logged in, a user must have the ability to create, read, update and destroy the resource that belongs_to user.",
+      "Ensure that users can edit and delete only their own resources - not resources created by other users.",
+      "Validate user input so bad data cannot be persisted to the database."
+    ]
+  }
+]
