@@ -31,6 +31,9 @@ const Projects = () => {
 
   return (
     <Layout>
+      <div>
+      <h1>Projects</h1>
+      </div>
       <div className="project-content">
       {projects.map(({ node: project }) => {
         const id = project.id
