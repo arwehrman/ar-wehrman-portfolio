@@ -2,7 +2,7 @@ import React from 'react'
 import { Link } from 'gatsby'
 import Image from 'gatsby-image'
 
-const Project = ({title, description, projectType, github, imageData, requirements}) => (
+const Project = ({title, description, projectType, github, imageData, requirements, url}) => (
     <div className="project">
         <h1>{title}</h1>
         <Image fluid={imageData} alt={title} />
@@ -11,7 +11,7 @@ const Project = ({title, description, projectType, github, imageData, requiremen
         <p>
             <a href={github} target="_blank" rel="noopener noreferrer">Github Code</a>
         </p>
-        <p>Project Demos- coming soon</p>
+        <p> <a href={url} target="_blank" rel="noopener noreferrer">Project Demo</a></p>
         
         <p>Project Requirements</p>
         <ul>

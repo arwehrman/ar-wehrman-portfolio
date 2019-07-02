@@ -13,6 +13,7 @@ const Projects = () => {
             title
             slug
             description
+            url
             image {
               publicURL
               childImageSharp {
@@ -41,11 +42,13 @@ const Projects = () => {
         const description = project.description
         const slug = project.slug
         const imageData = project.image.childImageSharp.fluid
+        const url= project.url
         return (
           <ProjectPreview
             key = {id}
             title={title}
             description={description}
+            url={url}
             slug={slug}
             imageData={imageData}
           />

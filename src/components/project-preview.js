@@ -2,7 +2,7 @@ import React from 'react';
 import { Link } from 'gatsby';
 import Image from 'gatsby-image';
 
-const ProjectPreview = ({ id, title, description, slug, imageData}) => (
+const ProjectPreview = ({ id, title, description, slug, imageData, url}) => (
     <div className="project-preview">
         <Link to={`/${slug}/`}>
             <Image fluid={imageData} alt={title} />
