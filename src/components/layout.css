@@ -69,7 +69,9 @@ a.topnav:hover {
   padding: 15px;
   border-radius: 3px;
 }
-
+.about p {
+  padding: 10px;
+}
 .about h1 {
   padding-bottom: 10px;
   font-family: "Teko", sans-serif;
