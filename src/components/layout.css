@@ -156,6 +156,15 @@ a.topnav:hover {
 .hobby {
   padding: 20px;
 }
+
+img.derby {
+  border: 4px solid #ddd;
+  border-radius: 4px;
+  padding: 5px;
+  max-width: 100%;
+  height: auto;
+}
+
 /* Skills Resume */
 .skills {
   display: flex;

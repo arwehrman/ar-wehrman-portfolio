@@ -6,7 +6,7 @@ const Hobbies = () => (
     <Layout>
         <div className="hobbies">
             <h1>Hobbies</h1>
-            <img src={wonder} alt="Wonder Wehrman" />
+            <img className="derby" src={wonder} alt="Wonder Wehrman" />
         <div className="hobby">
             
             <p>Since 2010 I've been involved with Philly Roller Derby. I've been an announcer, photographer, volunteer and skater. In 2017 I was in charge of planning and organize our leagues annual 3 day tournament, East Coast Derby Extravaganza. This tournament hosted leagues from all over the United States and internationally. I cordinated teams, officials, photographers, vendors, and created game schedules.  I also worked as the Clips Media Manager for WFTDA Broadcast, which involved creating clips from broadcast footage to be used in commericials and media coverage.</p>
