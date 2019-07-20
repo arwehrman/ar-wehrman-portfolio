@@ -168,9 +168,15 @@ img.derby {
   height: auto;
 }
 
-/* Skills Resume */
+/* Facts Page */
+
+.facts h2 {
+  font-size: 22px;
+}
+
 .skills {
   display: flex;
+  text-align: center;
   flex-wrap: wrap;
   background-color: #261447;
   justify-content: space-between;
@@ -180,10 +186,17 @@ img.derby {
   box-shadow: 0 0 5px #2de2e6, 0 0 10px #2de2e6, 0 0 10px #05DDDD,
   0 0 10px #05DDDD, 0 0 10px #05DDDD, 0 0 15px #05DDDD, 0 0 15px #05DDDD;
 }
+
 .skillBlock ul {
   list-style: none;
   padding: 20px;
+  font-size: 18px;
 }
+
+.skillBlock h3 {
+  font-size: 22px;
+}
+
 .resume {
   margin-top: 30px;
   padding: 20px;
@@ -194,8 +207,7 @@ img.derby {
   0 0 10px #05DDDD, 0 0 10px #05DDDD, 0 0 15px #05DDDD, 0 0 15px #05DDDD;
 }
 .job {
-  padding: 20px;
-  
+  padding: 20px; 
 }
 
 .job h3 {
@@ -218,6 +230,24 @@ img.derby {
 }
 
 .school {
+  padding-bottom: 10px;
+}
+
+.certs {
+  margin-top: 30px;
+  padding: 20px;
+  background-color: #261447;
+  border: 5px solid #2de2e6;
+  border-radius: 10px;
+  box-shadow: 0 0 5px #2de2e6, 0 0 10px #2de2e6, 0 0 10px #05DDDD,
+  0 0 10px #05DDDD, 0 0 10px #05DDDD, 0 0 15px #05DDDD, 0 0 15px #05DDDD;
+}
+
+.certs h2 {
+  padding-bottom: 10px;
+}
+
+.cert {
   padding-bottom: 10px;
 }
 
