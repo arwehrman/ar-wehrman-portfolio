@@ -27,7 +27,7 @@ const Facts = () => {
     <Layout>
       <div className="facts">
         <div className="skills">
-          <h2>Skills</h2>
+
           <div className="skillBlock">
             <h3>Core</h3>
             <ul>

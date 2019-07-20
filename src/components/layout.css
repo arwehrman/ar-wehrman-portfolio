@@ -178,10 +178,16 @@ img.derby {
   box-shadow: 0 0 5px #2de2e6, 0 0 10px #2de2e6, 0 0 10px #05DDDD,
   0 0 10px #05DDDD, 0 0 10px #05DDDD, 0 0 15px #05DDDD, 0 0 15px #05DDDD;
 }
+.skills  {
+  font-size: 22px;
+  text-align: center;
+}
+
 .skillBlock ul {
   list-style: none;
   padding: 20px;
 }
+
 .resume {
   margin-top: 30px;
   padding: 20px;
@@ -219,6 +225,19 @@ img.derby {
   padding-bottom: 10px;
 }
 
+.certs {
+  margin-top: 30px;
+  padding: 20px;
+  background-color: #261447;
+  border: 5px solid #2de2e6;
+  border-radius: 10px;
+  box-shadow: 0 0 5px #2de2e6, 0 0 10px #2de2e6, 0 0 10px #05DDDD,
+  0 0 10px #05DDDD, 0 0 10px #05DDDD, 0 0 15px #05DDDD, 0 0 15px #05DDDD;
+}
+
+.cert {
+  padding-bottom: 10px;
+}
 /* Logo */
 
 a.logo {
