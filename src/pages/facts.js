@@ -31,18 +31,30 @@ const Facts = () => {
           <div className="skillBlock">
             <h3>Core</h3>
             <ul>
-              <li>HTML</li>
-              <li>CSS</li>
+              <li>HTML5</li>
+              <li>CSS3</li>
               <li>JavaScript</li>
               <li>SQL</li>
               <li>Ruby</li>
+              <li>Rails</li>
             </ul>
           </div>
           <div className="skillBlock">
             <h3>Libaries</h3>
             <ul>
-              <li>React</li>
+              <li>React.js</li>
               <li>Gatsby</li>
+              <li>jQuery</li>
+              <li>Bootstrap</li>
+              <li>Sass</li>
+            </ul>
+          </div>
+          <div className="skillBlock">
+            <h3>Industry</h3>
+            <ul>
+              <li>Project Management</li>
+              <li>Software Documetation</li>
+          
             </ul>
           </div>
           <div className="skillBlock">
@@ -50,7 +62,8 @@ const Facts = () => {
             <ul>
               <li>Organization</li>
               <li>Peristence</li>
-              <li>Self-Motivated</li>
+              <li>Self-Motivation</li>
+              <li>Troubleshooting</li>
             </ul>
           </div>
         </div>

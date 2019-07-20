@@ -170,6 +170,7 @@ img.derby {
 .skills {
   display: flex;
   flex-wrap: wrap;
+  text-align: center;
   background-color: #261447;
   justify-content: space-between;
   padding: 60px;
@@ -178,14 +179,15 @@ img.derby {
   box-shadow: 0 0 5px #2de2e6, 0 0 10px #2de2e6, 0 0 10px #05DDDD,
   0 0 10px #05DDDD, 0 0 10px #05DDDD, 0 0 15px #05DDDD, 0 0 15px #05DDDD;
 }
-.skills  {
-  font-size: 22px;
-  text-align: center;
+
+.skills h3 {
+  font-size: 20px;
 }
 
 .skillBlock ul {
   list-style: none;
   padding: 20px;
+  font-size: 16px;
 }
 
 .resume {

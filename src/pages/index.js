@@ -4,12 +4,12 @@ import SEO from "../components/seo"
 import headshot from '../images/arwehrman.jpg'
 
 
-
 const IndexPage = () => (
   <Layout>
     <SEO title="Home" keywords={[`gatsby`, `application`, `react`]} />
-  
-    <div className="headshot">
+
+  <div>
+  <div className="headshot">
       <img className="image-neon" src={headshot} alt="My headshot" />
     </div> 
     <div>
@@ -21,6 +21,8 @@ const IndexPage = () => (
             <p>To success in my IT Manager role, I have taught myself HTML, CSS, SQL, and Crystal Reports. This led me into discovering software development. I went through the online Full Stack development  program at Flatiron while still working full-time.  Now I am currently  balancing a full-time job while honing in my developer skills in my free time. I am currently looking for a full time developer position to take my recently acquired coding skills to the next level.</p>
         </div>
     </div> 
+  </div>
+    
   </Layout>
 )
 export default IndexPage
