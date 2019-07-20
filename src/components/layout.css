@@ -35,6 +35,7 @@ h3 {
   letter-spacing: 4px;
   font-family: "Rubik", sans-serif;
 }
+
 /* Navigation */
 .header {
   background-color: #0d0221;
@@ -81,6 +82,8 @@ a.topnav:hover {
 
 .headshot {
   align-content: center;
+  max-width: 100%;
+  height: auto;
 }
 
 /* Projects */
@@ -310,6 +313,8 @@ a.logo span {
   position: relative;
   animation: imgFlash 3s ease-in-out 0s infinite;
   border-radius: 3px;
+  max-width: 100%;
+  height: auto;
   
 }
 
