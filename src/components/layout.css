@@ -199,9 +199,9 @@ img.derby {
   box-shadow: 0 0 5px #2de2e6, 0 0 10px #2de2e6, 0 0 10px #05DDDD,
   0 0 10px #05DDDD, 0 0 10px #05DDDD, 0 0 15px #05DDDD, 0 0 15px #05DDDD;
 }
+
 .job {
   padding: 20px;
-  
 }
 
 .job h3 {
@@ -322,5 +322,26 @@ a.logo span {
   100% {
     border: 5px solid #2de2e6;
     box-shadow: 0px 0px 17px 1px #2de2e6;
+  }
+}
+
+/* 1200px / 16px = 75em */
+@media (max-width: 75em) {
+  body {
+    font-size: 60%;
+  }
+}
+
+/* 980px / 16px = 61.25em */
+@media (max-width: 61.25em) {
+  body {
+    font-size: 58%;
+  }
+}
+
+/* 460px / 16px = 28.75em */
+@media (max-width: 28.75em) {
+  body {
+    font-size: 55%;
   }
 }

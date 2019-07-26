@@ -27,7 +27,6 @@ const Facts = () => {
     <Layout>
       <div className="facts">
         <div className="skills">
-
           <div className="skillBlock">
             <h3>Core</h3>
             <ul>
@@ -54,7 +53,6 @@ const Facts = () => {
             <ul>
               <li>Project Management</li>
               <li>Software Documetation</li>
-          
             </ul>
           </div>
           <div className="skillBlock">
