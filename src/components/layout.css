@@ -39,6 +39,7 @@ h3 {
   letter-spacing: 4px;
   font-family: "Rubik", sans-serif;
 }
+
 /* Navigation */
 .header {
   background-color: #0d0221;
@@ -94,7 +95,7 @@ a.topnav:hover {
   justify-content: space-between;
   margin: 5rem auto;
   max-width: 90%;
-  width: 57ch;
+  width: 75ch;
 }
 
 .project-preview {
@@ -112,7 +113,7 @@ a.topnav:hover {
 }
 
 .project-preview h2 {
-  font-size: 1.75rem;
+  font-size: 1rem;
   margin-top: 0.5rem;
 }
 
