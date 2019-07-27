@@ -2,6 +2,13 @@
 
 @import url("https://fontlibrary.org/face/beon");
 
+:root {
+  --pink-shadow: 0 0 5px #f6019d, 0 0 10px #f6019d, 0 0 20px #920075,
+  0 0 30px #920075, 0 0 40px #920075, 0 0 55px #920075, 0 0 75px #920075;
+  --blue-shadow: 0 0 5px #2de2e6, 0 0 10px #2de2e6, 0 0 10px #05DDDD,
+  0 0 10px #05DDDD, 0 0 10px #05DDDD, 0 0 15px #05DDDD, 0 0 15px #05DDDD;
+}
+
 
 * {
   box-sizing: border-box;
@@ -10,7 +17,6 @@
 
 body {
   background-color: #0d0221;
-  font-size: 12px;
   font-family: "Trirong", serif;
   color: #fff;
   text-shadow: 2px 2px 4px #000000;
@@ -52,8 +58,7 @@ a.topnav:hover {
   color: #2de2e6;
   background-color: #f6019d;
   border-radius: 3px;
-  box-shadow: 0 0 5px #2de2e6, 0 0 10px #2de2e6, 0 0 10px #05DDDD,
-  0 0 10px #05DDDD, 0 0 10px #05DDDD, 0 0 15px #05DDDD, 0 0 15px #05DDDD;
+  box-shadow: var(--blue-shadow);
 }
 
 .content {
@@ -176,8 +181,7 @@ img.derby {
   padding: 60px;
   border: 5px solid #2de2e6;
   border-radius: 10px;
-  box-shadow: 0 0 5px #2de2e6, 0 0 10px #2de2e6, 0 0 10px #05DDDD,
-  0 0 10px #05DDDD, 0 0 10px #05DDDD, 0 0 15px #05DDDD, 0 0 15px #05DDDD;
+  box-shadow: var(--blue-shadow);
 }
 
 .skills h3 {
@@ -196,8 +200,7 @@ img.derby {
   background-color: #261447;
   border: 5px solid #2de2e6;
   border-radius: 10px;
-  box-shadow: 0 0 5px #2de2e6, 0 0 10px #2de2e6, 0 0 10px #05DDDD,
-  0 0 10px #05DDDD, 0 0 10px #05DDDD, 0 0 15px #05DDDD, 0 0 15px #05DDDD;
+  box-shadow: var(--blue-shadow);
 }
 
 .job {
@@ -215,8 +218,7 @@ img.derby {
   background-color: #261447;
   border: 5px solid #2de2e6;
   border-radius: 10px;
-  box-shadow: 0 0 5px #2de2e6, 0 0 10px #2de2e6, 0 0 10px #05DDDD,
-  0 0 10px #05DDDD, 0 0 10px #05DDDD, 0 0 15px #05DDDD, 0 0 15px #05DDDD;
+  box-shadow: var(--blue-shadow);
 }
 
 .education h2 {
@@ -233,8 +235,7 @@ img.derby {
   background-color: #261447;
   border: 5px solid #2de2e6;
   border-radius: 10px;
-  box-shadow: 0 0 5px #2de2e6, 0 0 10px #2de2e6, 0 0 10px #05DDDD,
-  0 0 10px #05DDDD, 0 0 10px #05DDDD, 0 0 15px #05DDDD, 0 0 15px #05DDDD;
+  box-shadow: var(--blue-shadow);
 }
 
 .cert {
@@ -250,8 +251,7 @@ a.logo {
   letter-spacing: 10px;
   text-decoration: none;
   color: #fff;
-  text-shadow: 0 0 5px #f6019d, 0 0 10px #f6019d, 0 0 20px #920075,
-    0 0 30px #920075, 0 0 40px #920075, 0 0 55px #920075, 0 0 75px #920075;
+  text-shadow: var(--pink-shadow);
   text-align: center;
 }
 
