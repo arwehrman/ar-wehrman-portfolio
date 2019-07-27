@@ -67,5 +67,38 @@
       "Ensure that users can edit and delete only their own resources - not resources created by other users.",
       "Validate user input so bad data cannot be persisted to the database."
     ]
+  },
+  {
+    "title": "Product Landing Page Project",
+    "slug": "prod-landing-page",
+    "projectType": "school",
+    "url": "https://flamboyant-lamarr-c02974.netlify.com/",
+    "github": "https://github.com/arwehrman/landing-page-project",
+    "image": "./images/chucks_fitness.png",
+    "description": "HTML and CSS Product Landing Page",
+    "requirements": [
+      "Build a product landing page.",
+      "Use only HTML and CSS",
+      "Must include embedded video",
+      "Must include atleast 1 media query",
+      "Must have email sign up form"
+    ]
+  },
+  {
+    "title": "Technical Doc Project",
+    "slug": "technical-documetation",
+    "projectType": "school",
+    "url": "https://sharp-lamarr-c28e6f.netlify.com/",
+    "github": "https://github.com/arwehrman/technical-documentation-project",
+    "image": "./images/technical_docu.png",
+    "description": "HTML and CSS Documentation Page",
+    "requirements": [
+      "Use HTML and CSS",
+      "Clicking on a navbar element should navigate to the corresponding section on the page",
+      "Navbar should be shown on the left side of the screen and should always be visible to the user."
+    ]
   }
+
+
+
 ]

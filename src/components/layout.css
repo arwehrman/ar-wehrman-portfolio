@@ -121,7 +121,7 @@ a.topnav:hover {
 }
 
 .project-preview a:link {
-  color: #ff6c11
+  color: #f6019d;
 }
 
 .project-preview a:visited {
@@ -133,7 +133,7 @@ a.topnav:hover {
 }
 
 .project a:link{
-  color: #ff6c11
+  color: #f6019d;
 }
 .project a:visited {
   color: #f9c80e;
