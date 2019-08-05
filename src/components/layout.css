@@ -175,6 +175,20 @@ img.derby {
 .cert {
   padding-bottom: 10px;
 }
+
+/* Contact */
+.contactInfo {
+  margin: 10px;
+}
+.contactInfo ul {
+  list-style: none;
+  padding: 10px;
+}
+
+.contactInfo a {
+  text-decoration: none;
+  color:  #2de2e6;
+}
 /* Logo */
 
 a.logo {

@@ -16,6 +16,7 @@ const Layout = ({ children }) => (
         <ListLink  to="/facts">Facts</ListLink>
         <ListLink to="/hobbies">Hobbies</ListLink>
         <ListLink  to="/projects">Projects</ListLink>
+        <ListLink to="/contact">Contact</ListLink>
       </ul>
     </header>
     <main className="content">{children}</main>
