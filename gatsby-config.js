@@ -28,7 +28,7 @@ module.exports = {
           start_url: "/",
           background_color: "#f6019d",
           theme_color: "#f6019d",
-          display: "standalone",
+          display: "browser",
           icon: "src/images/icon.png", 
           icons: [
             {
