@@ -281,6 +281,10 @@ a.logo span {
   a.logo {
     font-size: 90px;
   }
+  a.topnav {
+    font-size: 25px;
+    padding: 10px;
+  }
 }
 
 /* 980px / 16px = 61.25em */
@@ -291,6 +295,10 @@ a.logo span {
   a.logo {
     font-size: 75px;
   }
+  a.topnav {
+    font-size: 20px;
+    padding: 8px;
+  }
 }
 
 /* 460px / 16px = 28.75em */
@@ -300,5 +308,9 @@ a.logo span {
   }
   a.logo {
     font-size: 30px;
+  }
+  a.topnav {
+    font-size: 10px;
+    padding: 5px;
   }
 }
