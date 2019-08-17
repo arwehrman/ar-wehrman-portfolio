@@ -1,9 +1,8 @@
 {
-  "name": "gatsby-starter-default",
-  "private": true,
-  "description": "A simple starter to get up and developing quickly with Gatsby",
+  "name": "ar-wehrman-portfolio",
+  "description": "Web Portfolio",
   "version": "0.1.0",
-  "author": "Kyle Mathews <mathews.kyle@gmail.com>",
+  "author": "Amanda Wehrman",
   "dependencies": {
     "gatsby": "^2.7.1",
     "gatsby-background-image": "^0.8.0",
