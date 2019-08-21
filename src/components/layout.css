@@ -1,6 +1,5 @@
 @import url("https://fonts.googleapis.com/css?family=Teko|Monoton|Rubik|Trirong&display=swap");
 
-@import url("https://fontlibrary.org/face/beon");
 
 :root {
   --pink-shadow: 0 0 5px #f6019d, 0 0 10px #f6019d, 0 0 20px #920075,
@@ -193,7 +192,7 @@ img.derby {
 
 a.logo {
   font-size: 100px;
-  font-family: 'BeonRegular'; 
+  font-family: 'Monoton';
   font-weight: normal; 
   font-style: normal; 
   letter-spacing: 10px;
