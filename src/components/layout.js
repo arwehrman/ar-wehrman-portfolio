@@ -1,6 +1,11 @@
 import React from "react"
 import { Link } from "gatsby"
+import { library } from '@fortawesome/fontawesome-svg-core'
+import { fab } from '@fortawesome/free-brands-svg-icons'
+import { faEnvelopeSquare } from '@fortawesome/free-solid-svg-icons'
 import "./layout.css"
+
+library.add(fab, faEnvelopeSquare)
 
 const ListLink = props => (
   <li style={{ display: `inline-block`, marginRight: `1rem` }}>
