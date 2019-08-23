@@ -191,7 +191,7 @@ img.derby {
 /* Logo */
 
 a.logo {
-  font-size: 100px;
+  font-size: 60px;
   font-family: 'Monoton';
   font-weight: normal; 
   font-style: normal; 
@@ -278,7 +278,7 @@ a.logo span {
     font-size: 60%;
   }
   a.logo {
-    font-size: 90px;
+    font-size: 45px;
   }
   a.topnav {
     font-size: 25px;
@@ -292,7 +292,7 @@ a.logo span {
     font-size: 58%;
   }
   a.logo {
-    font-size: 75px;
+    font-size: 35px;
   }
   a.topnav {
     font-size: 20px;
