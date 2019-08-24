@@ -1,9 +1,9 @@
 import React from 'react'
 import wonder from '../images/wonder_wehrman.jpg'
-
+import "./hobbies.css"
 
 const Hobbies = () => (
-        <div className="hobbies">
+        <div className="hobbies" id="hobbies">
             <h1>Hobbies</h1>
             <img className="derby" src={wonder} alt="Wonder Wehrman" />
         <div className="hobby">

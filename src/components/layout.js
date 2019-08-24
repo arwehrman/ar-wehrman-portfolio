@@ -20,9 +20,9 @@ const Layout = ({ children }) => (
       <Link className="logo" to="/">A<span>R</span> WEHR<span>MA</span>N</Link>
 
       <ul style={{ listStyle: `none`, float: `right` }}>
-        <ListLink to="/facts">Facts</ListLink>
-        <ListLink to="/hobbies">Hobbies</ListLink>
-        <ListLink to="/projects">Projects</ListLink>
+        <ListLink to="#facts">Facts</ListLink>
+        <ListLink to="#hobbies">Hobbies</ListLink>
+        <ListLink to="#projects">Projects</ListLink>
         <li className="contact-icon"><a href="mailto: arwehrman@gmail.com"><FontAwesomeIcon icon="envelope-square" size="2x" /></a></li>
         <li className="contact-icon"><a href="https://github.com/arwehrman" target="blank"><FontAwesomeIcon icon={['fab', 'github-square']} size="2x" /></a></li>
         <li className="contact-icon"><a href="https://www.linkedin.com/in/amanda-wehrman/" target="blank"><FontAwesomeIcon icon={['fab', 'linkedin']} size="2x" /></a></li>

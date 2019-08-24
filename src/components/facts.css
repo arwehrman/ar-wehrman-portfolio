@@ -1,0 +1,70 @@
+/* Skills Resume */
+.skills {
+    display: flex;
+    flex-wrap: wrap;
+    text-align: center;
+    background-color: #261447;
+    justify-content: space-between;
+    padding: 60px;
+    border: 5px solid #2de2e6;
+    border-radius: 10px;
+    box-shadow: var(--blue-shadow);
+  }
+  
+  .skills h3 {
+    font-size: 20px;
+  }
+  
+  .skillBlock ul {
+    list-style: none;
+    padding: 20px;
+    font-size: 16px;
+  }
+  
+  .resume {
+    margin-top: 30px;
+    padding: 20px;
+    background-color: #261447;
+    border: 5px solid #2de2e6;
+    border-radius: 10px;
+    box-shadow: var(--blue-shadow);
+  }
+  
+  .job {
+    padding: 20px;
+  }
+  
+  .job h3 {
+    padding-bottom: 20px;
+    text-align: left;
+  }
+  
+  .education {
+    margin-top: 30px;
+    padding: 20px;
+    background-color: #261447;
+    border: 5px solid #2de2e6;
+    border-radius: 10px;
+    box-shadow: var(--blue-shadow);
+  }
+  
+  .education h2 {
+    padding-bottom: 10px;
+  }
+  
+  .school {
+    padding-bottom: 10px;
+  }
+  
+  .certs {
+    margin-top: 30px;
+    padding: 20px;
+    background-color: #261447;
+    border: 5px solid #2de2e6;
+    border-radius: 10px;
+    box-shadow: var(--blue-shadow);
+  }
+  
+  .cert {
+    padding-bottom: 10px;
+  }

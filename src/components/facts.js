@@ -1,7 +1,7 @@
 import React from "react"
 import Job from "./job"
 import { graphql, useStaticQuery } from "gatsby"
-
+import "./facts.css"
 const Facts = () => {
   const data = useStaticQuery(graphql`
     {
@@ -24,7 +24,7 @@ const Facts = () => {
 
   return (
   
-      <div className="facts">
+      <div className="facts" id="facts">
         <div className="skills">
           <div className="skillBlock">
             <h3>Core</h3>
