@@ -53,6 +53,7 @@ const Facts = () => {
             <ul>
               <li>Project Management</li>
               <li>Software Documetation</li>
+              <li>Software User Training</li>
             </ul>
           </div>
           <div className="skillBlock">
