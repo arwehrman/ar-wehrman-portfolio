@@ -1,6 +1,5 @@
 import React from "react"
-import Layout from "../components/layout"
-import Job from "../components/job"
+import Job from "./job"
 import { graphql, useStaticQuery } from "gatsby"
 
 const Facts = () => {
@@ -24,7 +23,7 @@ const Facts = () => {
   const jobs = data.allJobsJson.edges
 
   return (
-    <Layout>
+  
       <div className="facts">
         <div className="skills">
           <div className="skillBlock">
@@ -123,7 +122,6 @@ const Facts = () => {
           </div>
         </div>
       </div>
-    </Layout>
   )
 }
 

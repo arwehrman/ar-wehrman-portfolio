@@ -1,9 +1,8 @@
 import React from 'react'
 import wonder from '../images/wonder_wehrman.jpg'
-import Layout from '../components/layout'
+
 
 const Hobbies = () => (
-    <Layout>
         <div className="hobbies">
             <h1>Hobbies</h1>
             <img className="derby" src={wonder} alt="Wonder Wehrman" />
@@ -19,7 +18,6 @@ const Hobbies = () => (
             <p>I love all forms of art but photography is my favorite. I started building cameras out of Legos when I was 4 years old. I would pretend that I was taking pictures and then I would develop them in my "dark room", which was me drawing  the pictures I took. I enjoy capturing everyday life.  My favorite photographers are Robert Frank and Sylvia Placky.</p>
         </div>
         </div>
-    </Layout>
     
 )
 export default Hobbies;
