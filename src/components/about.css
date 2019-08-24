@@ -1,6 +1,6 @@
 /* About */
 .about {
-    background-color: #261447;
+    background-color: #f9c80E;
     padding: 15px;
     border-radius: 3px;
   }
@@ -13,8 +13,12 @@
     color: #f6019d
   }
 
+/* neon image border */
 
-  .headshot {
-    align-content: center;
-    border-radius: 10px;
-  }
+.image-neon {
+  position: relative;
+  animation: imgFlash 3s ease-in-out 0s infinite;
+  border-radius: 10px;
+  max-width: 100%;
+  height: auto;
+}

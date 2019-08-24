@@ -5,10 +5,9 @@ import "./about.css"
 const About = () => (
   <div>
     <div className="headshot">
-      <img className="image-neon" src={headshot} alt="My headshot" />
-    </div>
-    <div>
+    <img className="image-neon" src={headshot} alt="My headshot" />
       <div className="about" id="about">
+     
         <h1>Amanda R. Wehrman</h1>
         <h2>Full-Stack Developer</h2>
 

@@ -29,7 +29,7 @@ const Layout = ({ children }) => (
         <li className="contact-icon"><a href="https://twitter.com/Wonder_Wehrman" target="blank"><FontAwesomeIcon icon={['fab', 'twitter-square']} size="2x" /></a></li>
       </ul>
     </header>
-    <main className="content">{children}</main>
+    <main>{children}</main>
   </React.Fragment>
 )
 

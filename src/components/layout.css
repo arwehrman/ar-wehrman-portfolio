@@ -74,10 +74,6 @@ a.topnav:hover {
   color: #2de2e6;
 }
 
-.content {
-  padding: 50px;
-  margin: 20px;
-}
 
 /* Logo */
 
@@ -130,19 +126,6 @@ a.logo span {
     color: inherit;
     text-shadow: inherit;
   }
-}
-
-
-/* neon image border */
-
-.image-neon {
-  position: relative;
-  animation: imgFlash 3s ease-in-out 0s infinite;
-  border-radius: 10px;
-  max-width: 100%;
-  height: auto;
-
-  
 }
 
 @keyframes imgFlash {

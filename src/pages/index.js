@@ -10,9 +10,9 @@ const IndexPage = () => (
   <Layout>
     <SEO title="Home" keywords={[`gatsby`, `application`, `react`]} />
     <About />
+    <Projects />
     <Facts />
     <Hobbies />
-    <Projects />
   </Layout>
 )
 export default IndexPage
