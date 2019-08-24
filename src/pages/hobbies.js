@@ -22,5 +22,4 @@ const Hobbies = () => (
     </Layout>
     
 )
-
 export default Hobbies;
