@@ -25,6 +25,7 @@ const Facts = () => {
   return (
   
       <div className="facts" id="facts">
+        <h1>Facts</h1>
         <div className="skills">
           <div className="skillBlock">
             <h3>Core</h3>

@@ -1,7 +1,7 @@
 import React from "react"
 import ProjectPreview from "./project-preview"
 import { graphql, useStaticQuery } from "gatsby"
-import "./projects.css"
+import "./project.css"
 const Projects = () => {
   const data = useStaticQuery(graphql`
     {
@@ -31,9 +31,9 @@ const Projects = () => {
 
   return (
     <div className="projects"id="projects">
-      <div>
+     
         <h1>Projects</h1>
-      </div>
+  
       <div className="project-content">
         {projects.map(({ node: project }) => {
           const id = project.id

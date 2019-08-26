@@ -7,10 +7,17 @@
   .about p {
     padding: 10px;
   }
+
   .about h1 {
-    padding-bottom: 10px;
     font-family: "Teko", sans-serif;
-    color: #f6019d
+    color: #f6019d;
+    margin: 0;
+  }
+  
+  .about h2 {
+    font-family: "Teko", sans-serif;
+    color: #f6019d;
+    margin: 0;
   }
 
 /* neon image border */

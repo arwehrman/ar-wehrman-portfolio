@@ -18,4 +18,4 @@ const ProjectPreview = ({ id, title, description, slug, imageData, url }) => (
   </div>
 )
 
-export default ProjectPreview
+export default ProjectPreview;

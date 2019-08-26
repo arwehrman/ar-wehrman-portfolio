@@ -12,6 +12,7 @@ const Project = ({
   requirements,
   url,
 }) => (
+  
   <div className="project">
     <h1>{title}</h1>
     <Image fluid={imageData} alt={title} />

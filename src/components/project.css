@@ -1,17 +1,20 @@
 /* Projects */
+.projects {
+  background: #d40078;
+  padding: 10px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
 
 .project-content {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-between;
-    margin: 5rem auto;
-    max-width: 90%;
-    width: 75ch;
+    display: grid;
+    grid-template-columns: auto auto auto;
+    padding: 10px;
+    background-color: #ccc;    
   }
   
   .project-preview {
-    margin-bottom: 2rem;
-    padding: 15px;
+    padding: 10px;
     background-color: #261447;
     border-radius: 8px;
     box-shadow: 0 0 10px #05DDDD;
@@ -19,7 +22,6 @@
   
   @media (min-width: 600px) {
     .project-preview {
-      flex: 1 50%;
       max-width: calc(50% - 0.5rem);
     }
   }
