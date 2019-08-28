@@ -17,7 +17,8 @@ body {
   background-color: #0d0221;
   font-family: "Trirong", serif;
   color: #fff;
-  margin: 15px;
+  
+  margin: 0px;
 }
 
 h1 {
@@ -73,7 +74,133 @@ a.topnav:hover {
   color: #2de2e6;
 }
 
+.content {
+  padding: 50px;
+  margin: 20px;
+}
 
+
+/* About */
+.about {
+  background-color: #261447;
+  padding: 15px;
+  border-radius: 3px;
+}
+.about p {
+  padding: 10px;
+}
+.about h1 {
+  padding-bottom: 10px;
+  font-family: "Teko", sans-serif;
+  color: #f6019d
+}
+
+.headshot {
+  align-content: center;
+}
+
+
+/* Hobbies */
+
+.hobbies h1 {
+  padding-bottom: 10px;
+}
+.hobby {
+  padding: 20px;
+}
+
+img.derby {
+  border: 4px solid #ddd;
+  border-radius: 4px;
+  padding: 5px;
+  max-width: 100%;
+  height: auto;
+}
+
+/* Skills Resume */
+.skills {
+  display: flex;
+  flex-wrap: wrap;
+  text-align: center;
+  background-color: #261447;
+  justify-content: space-between;
+  padding: 60px;
+  border: 5px solid #2de2e6;
+  border-radius: 10px;
+  box-shadow: var(--blue-shadow);
+}
+
+.skills h3 {
+  font-size: 20px;
+}
+
+.skillBlock ul {
+  list-style: none;
+  padding: 20px;
+  font-size: 16px;
+}
+
+.resume {
+  margin-top: 30px;
+  padding: 20px;
+  background-color: #261447;
+  border: 5px solid #2de2e6;
+  border-radius: 10px;
+  box-shadow: var(--blue-shadow);
+}
+
+.job {
+  padding: 20px;
+}
+
+.job h3 {
+  padding-bottom: 20px;
+  text-align: left;
+}
+
+.education {
+  margin-top: 30px;
+  padding: 20px;
+  background-color: #261447;
+  border: 5px solid #2de2e6;
+  border-radius: 10px;
+  box-shadow: var(--blue-shadow);
+}
+
+.education h2 {
+  padding-bottom: 10px;
+}
+
+.school {
+  padding-bottom: 10px;
+}
+
+.certs {
+  margin-top: 30px;
+  padding: 20px;
+  background-color: #261447;
+  border: 5px solid #2de2e6;
+  border-radius: 10px;
+  box-shadow: var(--blue-shadow);
+}
+
+.cert {
+  padding-bottom: 10px;
+}
+
+/* Contact */
+.contactInfo {
+  margin: 10px;
+}
+.contactInfo ul {
+  list-style: none;
+  padding: 10px;
+}
+
+.contactInfo a {
+  text-decoration: none;
+  color:  #2de2e6;
+}
 /* Logo */
 
 a.logo {
@@ -125,6 +252,18 @@ a.logo span {
     color: inherit;
     text-shadow: inherit;
   }
+}
+
+
+/* neon image border */
+
+.image-neon {
+  position: relative;
+  animation: imgFlash 3s ease-in-out 0s infinite;
+  border-radius: 3px;
+  max-width: 100%;
+  height: auto;
+  
 }
 
 @keyframes imgFlash {

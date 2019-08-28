@@ -2,6 +2,7 @@ import React from "react"
 import ProjectPreview from "./project-preview"
 import { graphql, useStaticQuery } from "gatsby"
 import "./project.css"
+
 const Projects = () => {
   const data = useStaticQuery(graphql`
     {
@@ -30,11 +31,11 @@ const Projects = () => {
   const projects = data.allProjectsJson.edges
 
   return (
-    <div className="projects"id="projects">
-     
-        <h1>Projects</h1>
-  
-      <div className="project-content">
+    <div className="project-section" id="projects">
+
+      <h1>Projects</h1>
+
+      <div className="projects">
         {projects.map(({ node: project }) => {
           const id = project.id
           const title = project.title
@@ -53,7 +54,9 @@ const Projects = () => {
             />
           )
         })}
+
       </div>
+
     </div>
 
   )

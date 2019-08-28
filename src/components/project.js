@@ -15,7 +15,7 @@ const Project = ({
   
   <div className="project">
     <h1>{title}</h1>
-    <Image fluid={imageData} alt={title} />
+    <Image className="project-image" fluid={imageData} alt={title} />
     <p>{description}</p>
     <p>Project Type: {projectType}</p>
     <p>
