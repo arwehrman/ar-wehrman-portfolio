@@ -7,8 +7,9 @@
     justify-content: space-between;
     padding: 60px;
     border: 5px solid #2de2e6;
+    box-shadow: 0 0 10px #05DDDD;
     border-radius: 10px;
-    box-shadow: var(--blue-shadow);
+   
   }
   
   .skills h3 {
@@ -27,7 +28,8 @@
     background-color: #261447;
     border: 5px solid #2de2e6;
     border-radius: 10px;
-    box-shadow: var(--blue-shadow);
+    box-shadow: 0 0 10px #05DDDD;
+   
   }
   
   .job {
@@ -45,7 +47,7 @@
     background-color: #261447;
     border: 5px solid #2de2e6;
     border-radius: 10px;
-    box-shadow: var(--blue-shadow);
+    box-shadow: 0 0 10px #05DDDD;
   }
   
   .education h2 {
@@ -62,7 +64,7 @@
     background-color: #261447;
     border: 5px solid #2de2e6;
     border-radius: 10px;
-    box-shadow: var(--blue-shadow);
+    box-shadow: 0 0 10px #05DDDD;
   }
   
   .cert {
