@@ -9,7 +9,7 @@ import "./layout.css"
 library.add(fab, faEnvelopeSquare)
 
 const ListLink = props => (
-  <li style={{ display: `inline-block`, marginRight: `1rem` }}>
+  <li style={{ display: `inline-block`}}>
     <Link className="topnav" to={props.to}>{props.children}</Link>
   </li>
 )

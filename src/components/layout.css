@@ -17,8 +17,7 @@ body {
   background-color: #0d0221;
   font-family: "Trirong", serif;
   color: #fff;
-  
-  margin: 0px;
+  margin: 15px;
 }
 
 h1 {
@@ -45,13 +44,17 @@ h3 {
   padding: 1rem;
 }
 
+.topnav {
+  margin: 10px;
+}
+
 a.topnav {
   color: #f6019d;
   font-family: "Teko", sans-serif;
   font-size: 30px;
   text-decoration: none;
   letter-spacing: 4px;
-  padding: 10px;
+  padding: 5px;
 }
 
 a.topnav:hover {
@@ -63,7 +66,7 @@ a.topnav:hover {
 
 .contact-icon {
   display: inline-block;
-  margin-right: 1rem;
+  margin-right: .65rem;
 }
 
 .contact-icon svg {
@@ -77,22 +80,6 @@ a.topnav:hover {
 .content {
   padding: 50px;
   margin: 20px;
-}
-
-
-/* About */
-.about {
-  background-color: #261447;
-  padding: 15px;
-  border-radius: 3px;
-}
-.about p {
-  padding: 10px;
-}
-.about h1 {
-  padding-bottom: 10px;
-  font-family: "Teko", sans-serif;
-  color: #f6019d
 }
 
 .headshot {

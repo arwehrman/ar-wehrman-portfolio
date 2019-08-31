@@ -17,7 +17,7 @@ const Projects = () => {
             image {
               publicURL
               childImageSharp {
-                fluid {
+                fluid{
                   ...GatsbyImageSharpFluid
                 }
               }

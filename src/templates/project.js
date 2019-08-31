@@ -14,7 +14,7 @@ export const query = graphql`
       requirements
       image {
         childImageSharp {
-          fluid {
+          fluid{
             ...GatsbyImageSharpFluid
           }
         }
@@ -35,7 +35,7 @@ const ProjectTemplate = ({ data }) => {
 
   return (
     <Layout>
-      <div className="project-content">
+      
       <Project
         title={title}
         projectType={projectType}
@@ -45,8 +45,7 @@ const ProjectTemplate = ({ data }) => {
         github={github}
         requirements={requirements}
       />
-      </div>
-     
+  
     </Layout>
   );
 };
