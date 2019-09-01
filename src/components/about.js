@@ -6,10 +6,12 @@ const About = () => (
   <div>
     <div className="headshot">
     <img className="image-neon" src={headshot} alt="My headshot" />
+    <h1>Amanda R. Wehrman</h1>
+        <h2>Full-Stack Developer</h2>
+    </div>
       <div className="about" id="about">
      
-        <h1>Amanda R. Wehrman</h1>
-        <h2>Full-Stack Developer</h2>
+        
 
         <p>If I had to pick one word to describe me it would be Driven.</p>
         <p>My employment background is a mixed bag, that has in its own unique  way led me to searching for my first developer role. I've worked on the retail floor, in restaurants, warehouse distribution, banking, real estate law and hospitality.</p>
@@ -17,7 +19,6 @@ const About = () => (
         <p>To success in my IT Manager role, I have taught myself HTML, CSS, SQL, and Crystal Reports. This led me into discovering software development. I went through the online Full Stack development  program at Flatiron while still working full-time.  Now I am currently  balancing a full-time job while honing in my developer skills in my free time. I am currently looking for a full time developer position to take my recently acquired coding skills to the next level.</p>
       </div>
     </div>
-  </div>
 )
 
 export default About;

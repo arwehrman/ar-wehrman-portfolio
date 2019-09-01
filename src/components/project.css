@@ -32,6 +32,12 @@
   color: #ff6c11;
 }
 
+.image-holder {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+}
 .project {
   margin: 10px;
 }

@@ -1,26 +1,14 @@
 /* About */
-.about {
-  padding: 15px;
-  border-radius: 3px;
-}
 
-.about p {
-  padding: 10px;
-}
 
-.about h1 {
-  font-family: "Teko", sans-serif;
-  color: #f6019d;
-  margin: 0;
-}
+/* Headshot */
 
-.about h2 {
-  font-family: "Teko", sans-serif;
-  color: #f6019d;
-  margin: 0;
+.headshot {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 40%;
 }
-
-/* neon image border */
 
 .image-neon {
   position: relative;
