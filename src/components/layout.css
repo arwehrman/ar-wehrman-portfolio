@@ -38,6 +38,16 @@ h3 {
   font-family: "Rubik", sans-serif;
 }
 
+a:link {
+  color: #f6019d;
+  text-decoration: none;
+}
+
+a:visited {
+  color: #f9c80e;
+  text-decoration: none;
+}
+
 /* Navigation */
 .header {
   background-color: #0d0221;
