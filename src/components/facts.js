@@ -68,7 +68,6 @@ const Facts = () => {
         </div>
 
         <div className="experience">
-          <h2>Job Experience</h2>
           <div className="jobs">
           {jobs.map(({ node: job }) => {
             const id = job.id
