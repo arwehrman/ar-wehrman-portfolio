@@ -67,8 +67,9 @@ const Facts = () => {
           </div>
         </div>
 
-        <div className="resume">
+        <div className="experience">
           <h2>Job Experience</h2>
+          <div className="jobs">
           {jobs.map(({ node: job }) => {
             const id = job.id
             const title = job.title
@@ -89,6 +90,8 @@ const Facts = () => {
             )
           })}
         </div>
+        </div>
+        <div className="education-grid">
         <div className="education">
           <h2>Education</h2>
           <div className="school">
@@ -122,6 +125,7 @@ const Facts = () => {
             <p>freeCodeCamp</p>
           </div>
         </div>
+      </div>
       </div>
   )
 }

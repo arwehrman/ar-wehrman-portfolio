@@ -1,72 +1,80 @@
-/* Skills Resume */
+/* Facts */
+
+/* Skills */
 .skills {
-    display: flex;
-    flex-wrap: wrap;
-    text-align: center;
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    justify-content: space-evenly;   
+  }
+
+  .skillBlock {
     background-color: #261447;
-    justify-content: space-between;
-    padding: 60px;
     border: 5px solid #2de2e6;
     box-shadow: 0 0 10px #05DDDD;
     border-radius: 10px;
-   
-  }
-  
-  .skills h3 {
-    font-size: 20px;
+    padding: 30px;
+    text-align: center;
   }
   
   .skillBlock ul {
     list-style: none;
-    padding: 20px;
-    font-size: 16px;
+    padding-inline-start: 0;
   }
   
-  .resume {
-    margin-top: 30px;
-    padding: 20px;
-    background-color: #261447;
-    border: 5px solid #2de2e6;
-    border-radius: 10px;
-    box-shadow: 0 0 10px #05DDDD;
-   
-  }
+
+/* Job Experience */
+.jobs {
+  display: grid;
+  grid-template-columns: auto auto;
+  justify-content: space-evenly;  
+  grid-column-gap: 20px;
+}
+
+.job {
+  background-color: #261447;
+  border: 5px solid #2de2e6;
+  padding: 8px;
+  border-radius: 10px;
+  box-shadow: 0 0 10px #05DDDD;
+
+}
   
-  .job {
-    padding: 20px;
-  }
-  
-  .job h3 {
-    padding-bottom: 20px;
-    text-align: left;
-  }
-  
-  .education {
-    margin-top: 30px;
-    padding: 20px;
-    background-color: #261447;
-    border: 5px solid #2de2e6;
-    border-radius: 10px;
-    box-shadow: 0 0 10px #05DDDD;
-  }
-  
-  .education h2 {
-    padding-bottom: 10px;
-  }
-  
-  .school {
-    padding-bottom: 10px;
-  }
-  
-  .certs {
-    margin-top: 30px;
-    padding: 20px;
-    background-color: #261447;
-    border: 5px solid #2de2e6;
-    border-radius: 10px;
-    box-shadow: 0 0 10px #05DDDD;
-  }
-  
-  .cert {
-    padding-bottom: 10px;
-  }
+/* Educations and Certs */
+
+.education-grid {
+  display: grid;
+  grid-column-gap: 20px;
+  grid-template-columns: auto auto;
+  justify-content: space-evenly;
+}
+.education {
+  margin-top: 30px;
+  padding: 20px;
+  background-color: #261447;
+  border: 5px solid #2de2e6;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgb(17, 206, 206);
+  max-width: 500px;
+}
+
+.education h2 {
+  padding-bottom: 10px;
+}
+
+.school {
+  padding-bottom: 10px;
+}
+
+.certs {
+  margin-top: 30px;
+  padding: 20px;
+  background-color: #261447;
+  border: 5px solid #2de2e6;
+  border-radius: 10px;
+  box-shadow: 0 0 10px #05DDDD;
+  max-width: 400px;
+}
+
+.cert {
+  padding-bottom: 10px;
+}
