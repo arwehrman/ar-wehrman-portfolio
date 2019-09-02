@@ -5,8 +5,7 @@ import "./project.css"
 
 const ProjectPreview = ({ id, title, description, slug, imageData, url }) => (
   <div className="project-preview">
-  
-      <Image fluid={imageData} alt={title} />
+    <Image fluid={imageData} alt={title} />
     <h2>{title}</h2>
     <p>{description}</p>
     <p>
