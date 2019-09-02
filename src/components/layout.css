@@ -20,25 +20,13 @@ body {
   margin: 15px;
 }
 
-h1 {
+h1, h2, h3 {
   color: #f6019d;
   letter-spacing: 7px;
   font-family: "Rubik", sans-serif;
 }
 
-h2 {
-  color: #ee4266;
-  letter-spacing: 4px;
-  font-family: "Rubik", sans-serif;
-}
-
-h3 {
-  color: #1dd3b0;
-  letter-spacing: 4px;
-  font-family: "Rubik", sans-serif;
-}
-
-a:link {
+a {
   color: #f6019d;
   text-decoration: none;
 }

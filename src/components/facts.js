@@ -39,7 +39,7 @@ const Facts = () => {
             </ul>
           </div>
           <div className="skillBlock">
-            <h3>Libaries</h3>
+            <h3>Libraries</h3>
             <ul>
               <li>React.js</li>
               <li>Gatsby</li>

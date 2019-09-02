@@ -9,7 +9,7 @@
   }
 
   .skillBlock {
-    background-color: #261447;
+    background-image: linear-gradient(#0D0221, #261447); 
     border: 5px solid #2de2e6;
     box-shadow: 0 0 10px #05DDDD;
     border-radius: 10px;
@@ -36,11 +36,15 @@
 }
 
 .job {
-  background-color: #261447;
+  background-image: linear-gradient(#0D0221, #261447);
   border: 5px solid #2de2e6;
   padding: 8px;
   border-radius: 10px;
   box-shadow: 0 0 10px #05DDDD;
+}
+
+.job ul {
+  list-style-type: square;
 }
   
 /* Educations and Certs */
@@ -54,7 +58,7 @@
 .education {
   margin-top: 30px;
   padding: 20px;
-  background-color: #261447;
+  background-image: linear-gradient(#0D0221, #261447);
   border: 5px solid #2de2e6;
   border-radius: 10px;
   box-shadow: 0 0 10px rgb(17, 206, 206);
@@ -72,7 +76,7 @@
 .certs {
   margin-top: 30px;
   padding: 20px;
-  background-color: #261447;
+  background-image: linear-gradient(#0D0221, #261447);
   border: 5px solid #2de2e6;
   border-radius: 10px;
   box-shadow: 0 0 10px #05DDDD;
