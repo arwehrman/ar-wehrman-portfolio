@@ -9,7 +9,7 @@ import "./layout.css"
 library.add(fab, faEnvelopeSquare)
 
 const ListLink = props => (
-  <li style={{ display: `inline-block`}}>
+  <li>
     <Link className="topnav" to={props.to}>{props.children}</Link>
   </li>
 )
@@ -19,7 +19,7 @@ const Layout = ({ children }) => (
     <header className="header">
       <Link className="logo" to="/">A<span>R</span> WEHR<span>MA</span>N</Link>
 
-      <ul style={{ listStyle: `none`, float: `right` }}>
+      <ul className="navbar-list">
         <ListLink to="#facts">Facts</ListLink>
         <ListLink to="#hobbies">Hobbies</ListLink>
         <ListLink to="#projects">Projects</ListLink>

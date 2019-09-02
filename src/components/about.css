@@ -11,8 +11,8 @@
 }
 
 .image-neon {
-  position: relative;
-  animation: imgFlash 3s ease-in-out 0s infinite;
+  border: 5px solid #2de2e6;
+  box-shadow: 0 0 10px #05DDDD;
   border-radius: 10px;
   max-width: 100%;
   height: auto;

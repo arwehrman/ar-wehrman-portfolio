@@ -42,6 +42,15 @@ a:visited {
   padding: 1rem;
 }
 
+.navbar-list {
+  list-style: none;
+  float: right;
+}
+
+.navbar-list li {
+  display: inline;
+}
+
 .topnav {
   margin: 10px;
 }
@@ -125,37 +134,6 @@ a.logo span {
   92.5% {
     color: inherit;
     text-shadow: inherit;
-  }
-}
-
-
-/* neon image border */
-
-.image-neon {
-  position: relative;
-  animation: imgFlash 3s ease-in-out 0s infinite;
-  border-radius: 3px;
-  max-width: 100%;
-  height: auto;
-  
-}
-
-@keyframes imgFlash {
-  0% {
-    border: 5px solid #0d0221;
-    box-shadow: 0px 0px 17px 1px #0d0221;
-  }
-  50% {
-    border: 5px solid #0d0221;
-    box-shadow: 0px 0px 17px 1px #0d0221;
-  }
-  50.001% {
-    border: 5px solid #2de2e6;
-    box-shadow: 0px 0px 17px 1px #2de2e6;
-  }
-  100% {
-    border: 5px solid #2de2e6;
-    box-shadow: 0px 0px 17px 1px #2de2e6;
   }
 }
 
