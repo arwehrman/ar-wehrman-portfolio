@@ -1,4 +1,7 @@
 /* Projects */
+.project-section {
+  padding-top: 50px;
+}
 
 .projects {
   display: grid;

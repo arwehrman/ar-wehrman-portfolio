@@ -3,16 +3,14 @@ import headshot from '../images/arwehrman.jpg'
 import "./about.css"
 
 const About = () => (
-  <div>
+  <div className="about">
     <div className="headshot">
     <img className="image-neon" src={headshot} alt="My headshot" />
     <h1>Amanda R. Wehrman</h1>
     <h2>Full-Stack Developer</h2>
     </div>
-      <div className="about" id="about">
-     
-        
-
+      <div className="bio">
+    
         <p>If I had to pick one word to describe me it would be Driven.</p>
         <p>My employment background is a mixed bag, that has in its own unique  way led me to searching for my first developer role. I've worked on the retail floor, in restaurants, warehouse distribution, banking, real estate law and hospitality.</p>
         <p>9 years ago I started working in the information technology field, as the administrative assistant for an IT Department. I had the fortunate experience of having a supervisor that saw that I had a knack for learning technical skills quickly. Based on that, I took on greater responsibilities and received the right tools to grow and develop those skills.  Through a combination of those increased responsibilities and self-study, in 3 years I was promoted into a management position. Consequently, I took on the responsibility of managing our website, the company’s intranet site, and event management software.</p>
