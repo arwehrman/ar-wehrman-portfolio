@@ -23,7 +23,6 @@ const Facts = () => {
   const jobs = data.allJobsJson.edges
 
   return (
-  
       <div className="facts" id="facts">
         <h1>Facts</h1>
         <div className="skills">

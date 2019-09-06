@@ -4,7 +4,8 @@ import dunAengus from '../images/dun_aengus.jpg'
 import "./hobbies.css"
 
 const Hobbies = () => (
-    <div className="hobbies" id="hobbies">
+    <div id="hobbies">
+<div className="hobbies" >
         <h1>Hobbies</h1>
         <div className="hobbies-image">
             <img className="derby" src={wonder} alt="Wonder Wehrman" />
@@ -26,5 +27,7 @@ const Hobbies = () => (
         </div>
     </div>
 
+    </div>
+    
 )
 export default Hobbies;
