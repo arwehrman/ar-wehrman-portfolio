@@ -23,7 +23,7 @@ const Hobbies = () => (
         </div>
 
         <div className="hobby">
-            <p>I love all forms of art but photography is my favorite. I started building cameras out of Legos when I was 4 years old. I would pretend that I was taking pictures and then I would develop them in my "dark room", which was me drawing  the pictures I took. I enjoy capturing everyday life.  My favorite photographers are Robert Frank and Sylvia Placky.</p>
+            <p>I love all forms of art but photography is my favorite. I started building cameras out of Legos when I was 4 years old. I would pretend that I was taking pictures and then I would develop them in my "dark room", which was me drawing  the pictures I took. I enjoy capturing everyday life.  My favorite photographers are Robert Frank and Sylvia Plachy.</p>
         </div>
     </div>
 
